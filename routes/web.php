@@ -24,3 +24,7 @@ Route::get('/logout', function () {
 Route::get('/dashboard', function () {
     return view('layoutDashboard');
 });
+
+Route::get('/', function () {
+    return view('welcome');
+});
