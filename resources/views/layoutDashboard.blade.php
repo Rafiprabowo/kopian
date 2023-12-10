@@ -26,22 +26,23 @@
     </nav>
 
 {{-- search --}}
-    <div class="relative bg-white w-full h-96 border flex shadow-lg" style="margin-top: 10rem;">
-        <img class="absolute inset-0 min-w-full h-full object-cover opacity-30" src="https://i.ibb.co/3pSB2dG/bg-dashboard.jpg" alt="">
-        <div class="absolute inset-0 flex justify-center items-center">
-            <form class="relative w-96">
-                <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-                <div class="relative">
-                    <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
-                        </svg>
-                    </div>
-                    <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-full bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white shadow-lg" required>
+<div class="relative bg-white w-full h-96 border flex shadow-lg dark:darken" style="margin-top: 10rem;">
+    <img class="absolute inset-0 min-w-full h-full object-cover opacity-30" src="https://i.ibb.co/3pSB2dG/bg-dashboard.jpg" alt="">
+    <div class="absolute inset-0 flex justify-center items-center">
+        <form class="relative w-96">
+            <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+            <div class="relative">
+                <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                    </svg>
                 </div>
-            </form>
-        </div>
+                <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-full bg-gray-50 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white shadow-lg" required>
+            </div>
+        </form>
     </div>
+</div>
+
 
 {{-- iklan --}}
     <div class="w-full h-96 mt-10 flex">
@@ -94,44 +95,132 @@
 
 {{-- menu --}}
     <div id="menu" class="flex justify-center w-full mt-36 border-b-8 shadow-lg">
-        <h1 class="absoute font-mono text-6xl font-bold z-10 mt-5">menu</h1>
+        <h1 class="absoute font-mono text-6xl font-bold z-10 mt-5 mb-5">menu</h1>
     </div>
 {{-- isi menu --}}
-<div class="w-full h-[20%] border mt-36  flex-col">
-    <h1 class="text-3xl font-bold mt-4">Coffee</h1>
-    <div class="flex border mt-6">
-        <img class="w-[20%] h-[10rem] border" src="path/to/icon-coffee.png" alt="icon-coffee">
-        <div class="flex w-full border justify-center">
-            <img class="w-[20%] h-[10rem] border" src="path/to/gambar-coffee1.jpg" alt="gambar-coffee-1">
-            <img class="w-[20%] h-[10rem] ml-5 border" src="path/to/gambar-coffee2.jpg" alt="gambar-coffee-2">
-            <img class="w-[20%] h-[10rem] ml-5 border" src="path/to/gambar-coffee3.jpg" alt="gambar-coffee-3">
-        </div>
-    </div>
+    <div class="w-full border mt-36  flex-col">
 
-    <h1 class="text-3xl font-bold mt-4">Non-Coffee</h1>
-    <div class="flex border mt-6">
-        <img class="w-[20%] h-[10rem] border" src="path/to/icon-coffee.png" alt="icon-coffee">
-        <div class="flex w-full border justify-center">
-            <img class="w-[20%] h-[10rem] border" src="path/to/gambar-coffee1.jpg" alt="gambar-coffee-1">
-            <img class="w-[20%] h-[10rem] ml-5 border" src="path/to/gambar-coffee2.jpg" alt="gambar-coffee-2">
-            <img class="w-[20%] h-[10rem] ml-5 border" src="path/to/gambar-coffee3.jpg" alt="gambar-coffee-3">
+        <h1 class="text-3xl font-bold mt-4 text-center">- Coffee -</h1>
+        <div class="flex mt-6 w-full border">
+            <div class="flex w-full h-[20%] border justify-center">
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <h1 class="text-3xl font-bold mt-4">Snack</h1>
-    <div class="flex border mt-6">
-        <img class="w-[20%] h-[10rem] border" src="path/to/icon-coffee.png" alt="icon-coffee">
-        <div class="flex w-full border justify-center">
-            <img class="w-[20%] h-[10rem] border" src="path/to/gambar-coffee1.jpg" alt="gambar-coffee-1">
-            <img class="w-[20%] h-[10rem] ml-5 border" src="path/to/gambar-coffee2.jpg" alt="gambar-coffee-2">
-            <img class="w-[20%] h-[10rem] ml-5 border" src="path/to/gambar-coffee3.jpg" alt="gambar-coffee-3">
+        <h1 class="text-3xl font-bold mt-4 text-center">- Non-Coffee -</h1>
+        <div class="flex mt-6 w-full border">
+            <div class="flex w-full h-[20%] border justify-center">
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="text-3xl font-bold mt-4 text-center">- Snack -</h1>
+        <div class="flex mt-6 w-full border">
+            <div class="flex w-full h-[20%] border justify-center">
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-4">
+                    <div class="max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <img class="rounded-t-lg" src="https://i.ibb.co/0MgPYhq/gambar-kopi.jpg" alt="" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cappucino</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Rp 10.0000,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
 {{-- galery --}}
     <div id="galery" class="flex justify-center w-full mt-36 border-b-8 shadow-lg">
-        <h1 class="absoute font-mono text-6xl font-bold z-10 mt-5">Galery</h1>
+        <h1 class="absoute font-mono text-6xl font-bold z-10 mt-5 mb-5">Galery</h1>
     </div>
 
     <div class="min-w-full h-full mt-36">
