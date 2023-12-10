@@ -17,7 +17,7 @@
         </div>
         <div class="w-full flex justify-center">
             <a href="#menu" class="mx-4">Menu</a>
-            <a href="" class="mx-4">Gallery</a>
+            <a href="#galery" class="mx-4">Gallery</a>
             <a href="" class="mx-4">Promo</a>
         </div>
         <div class="">
@@ -73,7 +73,7 @@
                 <!-- Slider controls -->
                 <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
                     <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <svg class="w-4 h-4 text-black dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
                         </svg>
                         <span class="sr-only">Previous</span>
@@ -81,7 +81,7 @@
                 </button>
                 <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
                     <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                        <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <svg class="w-4 h-4 text-black dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                         </svg>
                         <span class="sr-only">Next</span>
@@ -93,12 +93,11 @@
     </div>
 
 {{-- menu --}}
-    <div id="menu" class="flex justify-center w-full mt-40">
-        <img class="w-full h-[1550px] absolute" src="https://i.ibb.co/4dqs3f8/MENU-1-removebg-preview-1.png" alt="">
+    <div id="menu" class="flex justify-center w-full mt-36 border-b-8 shadow-lg">
         <h1 class="absoute font-mono text-6xl font-bold z-10 mt-5">menu</h1>
     </div>
 {{-- isi menu --}}
-<div class="w-full h-[64rem] border mt-48 mx-10 flex-col">
+<div class="w-full h-[20%] border mt-36  flex-col">
     <h1 class="text-3xl font-bold mt-4">Coffee</h1>
     <div class="flex border mt-6">
         <img class="w-[20%] h-[10rem] border" src="path/to/icon-coffee.png" alt="icon-coffee">
@@ -109,7 +108,7 @@
         </div>
     </div>
 
-    <h1 class="text-3xl font-bold mt-4">Coffee</h1>
+    <h1 class="text-3xl font-bold mt-4">Non-Coffee</h1>
     <div class="flex border mt-6">
         <img class="w-[20%] h-[10rem] border" src="path/to/icon-coffee.png" alt="icon-coffee">
         <div class="flex w-full border justify-center">
@@ -119,7 +118,7 @@
         </div>
     </div>
 
-    <h1 class="text-3xl font-bold mt-4">Coffee</h1>
+    <h1 class="text-3xl font-bold mt-4">Snack</h1>
     <div class="flex border mt-6">
         <img class="w-[20%] h-[10rem] border" src="path/to/icon-coffee.png" alt="icon-coffee">
         <div class="flex w-full border justify-center">
@@ -128,11 +127,61 @@
             <img class="w-[20%] h-[10rem] ml-5 border" src="path/to/gambar-coffee3.jpg" alt="gambar-coffee-3">
         </div>
     </div>
-
 </div>
 
+{{-- galery --}}
+    <div id="galery" class="flex justify-center w-full mt-36 border-b-8 shadow-lg">
+        <h1 class="absoute font-mono text-6xl font-bold z-10 mt-5">Galery</h1>
+    </div>
 
-
+    <div class="min-w-full h-full mt-36">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </body>
